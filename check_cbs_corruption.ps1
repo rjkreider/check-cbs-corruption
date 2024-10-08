@@ -75,4 +75,4 @@ add-content -path fix-$randomString.txt -value "$extractPath"
 
 }
 
-write-host "Fix file: fix-$randomString.txt"
+write-host "Fix file: fix-$randomString.fix"
