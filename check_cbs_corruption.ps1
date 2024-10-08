@@ -67,7 +67,7 @@ foreach ($lastColumn in $uniqueLastColumns.Keys) {
     Write-Host "----------------------------------"
 
 
-add-content -path fix-$randomString.txt -value "$extractPath"
+add-content -path fix-$randomString.fix -value "$extractPath"
 
 } else {
     # Write-Host "No match for: $lastColumn"
