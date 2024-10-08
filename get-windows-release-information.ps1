@@ -22,8 +22,7 @@ switch ($version) {
         $url = "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info"
     }
     default {
-        Write-Host "Invalid version specified. Please use win10, win11, server2019, or server2022."
-        exit
+        $url = "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info"
     }
 }
 
